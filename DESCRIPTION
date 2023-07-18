@@ -1,0 +1,33 @@
+Package: ocsrri
+Type: Package
+Title: OC SRRI computation
+Version: 0.3.0
+Author: Claudio Ortelli [aut, cre],
+  Panagiotis Cheilaris [ctb]
+Maintainer: Claudio Ortelli <claudio.ortelli@opencapital.ch>
+Description: Function to compute the SRRI from Allocare Portfolio data.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: no
+Depends:
+    R (>= 3.1.2)
+Imports:
+    assertthat,
+    checkmate,
+    dplyr,
+    figir,
+    lubridate,
+    magrittr,
+    ocalc,
+    ocas,
+    ococpu,
+    ocTsutils,
+    tibble,
+    rlang,
+    readxl,
+    xts,
+    zoo
+Suggests:
+    ocutil,
+    testthat
+RoxygenNote: 7.2.3
